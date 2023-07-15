@@ -91,7 +91,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         /*  |----------+---------+---------+--- -----+-------+--------+------+-------+---------+---------+---------+---------| */
                KC_LSFT ,   KC_Z  ,   KC_X  ,  KC_C   , KC_V  ,  KC_B  , KC_N , KC_M  , KC_COMM ,  KC_DOT , KC_SLSH , KC_RSFT ,
         /*  |----------+---------+---------+---------+-------+--------+------+-------+---------+---------+---------+---------| */
-               KC_LCTL , KC_LGUI , KC_LALT ,   FN    , LOWER ,     SPCHOM    , RAISE , KC_ALGR , KC_VOLD , KC_VOLU , KC_MPLY ),
+                 FN    , KC_LCTL , KC_LGUI , KC_LALT , LOWER ,     SPCHOM    , RAISE , KC_ALGR , KC_VOLD , KC_VOLU , KC_MPLY ),
         /* `-----------------------------------------------------------------------------------------------------------------' */
 
     [1] = LAYOUT_planck_mit(
